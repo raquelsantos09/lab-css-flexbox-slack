@@ -8,3 +8,105 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+
+body {
+    background-color: #540B51;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.nav-bar {
+    background-color: #540B51;
+    display: flex;
+
+}
+
+.glass {
+    background-color: transparent;
+}
+
+.nav{
+    display: flex;
+    align-items: flex-end;
+}
+
+.icon {
+    background-color: transparent;
+}
+
+.header {
+    background-color: #540B51;
+}
+
+
+.teamwork {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white
+}
+
+.hide {
+    display: none;
+}
+
+.sign-up {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.mobile-desktop {
+    display: flex;
+
+}
+
+.companies, .teams-toguether {
+    background-color: #F3EAE2;
+}
+
+.companies {
+ 
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+#airbnb {
+    width: 90px;
+} 
+
+#nasa {
+    width: 90px;
+} 
+
+#uber {
+    width: 90px;
+} 
+
+#target {
+    width: 90px;
+} 
+
+#nytimes {
+    width: 90px;
+} 
+
+#spotify {
+    width: 90px;
+} 
+
+
+.choose-how span {
+    color: #2E71A6;
+}
+
+
+@media (min-width: 767px) {
+    
+}
