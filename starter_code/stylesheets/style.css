@@ -102,8 +102,37 @@ body {
 } 
 
 
-.choose-how span {
+.choose-how span, .bring-your span, .move-faster span {
     color: #2E71A6;
+    text-decoration: none;
+}
+
+
+.digital-hq {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    background-color: #F3EAE2;
+}
+
+.footer ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+
+.hr ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.rights-reserved {
+    display: flex;
+    justify-content: center;
 }
 
 
