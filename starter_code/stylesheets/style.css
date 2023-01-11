@@ -113,6 +113,14 @@ body {
     flex-direction: column;
 }
 
+
+.teams {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
 footer {
     background-color: #F3EAE2;
 }
